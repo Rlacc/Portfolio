@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "CareLink",
+    "description": "Last summer, I had the oppourtunity to participate in an intern hackathon at ESRI. This was my team's project -- a fully automated resouce hotline for the unhoused population of the greater Los Angeles metropolitan area. This project combined the use of Twillio, natural language processing, and ArcGIS dashboards to provide realtime statistics on our hotline's operations.",
+    "image": "/carelink.png",
+    "repoUrl": "https://github.com/ryderspees/carelink-hackathon-2024",
+    "liveDemoUrl": "https://devpost.com/software/carelink-h9ms2f",
+    "technologies": ["React", "Tailwind", "Node"]
+  },
+  {
+    "id": 2,
+    "title": "MLB Pitch Tracker",
+    "description": "Utilizing a private dataset of every pitch thrown in the 2023 MLB season, I was able to create a web app to visualize each MLB pitcher's pitching repoitoire and its various relevant statistics such as RPM, vertical break, and horizontal break. ",
+    "image": "/MLB.png",
+    "repoUrl": "https://github.com/Rlacc",
+    "technologies": ["React", "Tailwind", "Node"]
+  },
+  {
+    "id": 3,
+    "title": "Slot Machine Web App",
+    "description": "Created an interactive slot machine online. Users can choose a fictional amount of money and spin to win. This app utilized React, and was deployed using the Firebase SDK.",
+    "image": "/Slot_Machine.png",
+    "repoUrl": "https://github.com/Rlacc/react_slots",
+    "liveDemoUrl": "https://ryans-react-slots.web.app/",
+    "technologies": ["React", "Tailwind", "Node"]
+  }
+]
