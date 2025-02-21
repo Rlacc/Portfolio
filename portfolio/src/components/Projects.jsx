@@ -5,7 +5,7 @@ function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/projects.json")
+    fetch(`${import.meta.env.BASE_URL}/projects.json`)
       .then((response) => response.json())
       .then((data) => {
         setProjects(data);
@@ -29,7 +29,7 @@ function Projects() {
             >
               {" "}
               <img
-                src={project.image}
+                src={`${import.meta.env.BASE_URL}/${project.image}`}
                 alt={project.title}
                 className="mb-4 w-full h-48 object-cover rounded"
               />

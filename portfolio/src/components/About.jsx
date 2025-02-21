@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="w-4/5 max-w-4xl bg-gray-400/40 shadow-lg p-10 rounded-lg flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
         <div className="w-1/3">
           <img
-            src="/pfp.png"
+            src={`${import.meta.env.BASE_URL}/pfp.png`}
             alt="Online profile picture"
             className="rounded-lg shadow-lg w-full object-cover"
           />
